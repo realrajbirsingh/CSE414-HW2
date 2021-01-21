@@ -8,7 +8,7 @@
 
 
 
-select C.name as carrier , avg(price) as average_price
+select C.name as carrier , max(price) as maximum_price
 
 from FLIGHTS as F, CARRIERS as C 
 
